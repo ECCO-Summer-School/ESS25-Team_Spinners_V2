@@ -1,4 +1,4 @@
-# Sample Project
+# Spinners V2
 
 This is an example of how teams can structure their project repositories and format their project README.md file.
 
@@ -40,22 +40,20 @@ List all participants on the project. Here is a good space to share your persona
 
 | Name | Personal goals | Can help with | Role |
 | ------------- | ------------- | ------------- | ------------- |
-| Katherine J. | I want to learn specific python libraries for working with these data  | I can help with understanding our dataset, programming in R  | Project Lead |
-| Rosalind F. | Practice leading a software project | machine learning and python (scipy, scikit-learn) | Project Lead |
-| Alan T. | learning about your dataset | GitHub, Jupyter, cloud computing | Project Helper |
-| Rachel C. | learn to use github, resolve merge conflicts | I am familiar with our dataset | Team Member  |
-| ... | ... | ... | ... |
-| ... | ... | ... | ... |
+| Campos-Gonzales Fernando | I want to learn EMU tools and deepen my knowledge in ocean dynamics | I can help with python, fortran programming, and bash scripting   | Project Lead |
+| Aparco Jonathan | Practice leading a software project | machine learning and python (scipy, scikit-learn) | Project Lead |
+| Darby Basil | learning about your dataset | GitHub, Jupyter, cloud computing | Project Helper (*) |
 
 ### The problem
+To understand the relative contributions of individual terms in the vertically integrated vorticity budget
 
-Provide a few sentences describing the problem are you going to explore. If this is a technical exploration of software or data science methods, explain why this work is important in a broader context and specific applications of this work.
+
 
 ## Data and Methods
 
 ### Data
 
-Briefly describe and provide citations for the data that will be used (size, format, how to access).
+ECCOv4r5 monthly outputs (1992-2019) from velocity components in netcdf format. Localization in P-cluster: efs_ecco/ECCO/V4/r5/netcdf/native/mon_mean/
 
 ### Existing methods
 
@@ -94,6 +92,13 @@ What are the individual tasks or steps that need to be taken to achieve each of 
 
 ## Project Results
 
+we made a monthly database of term-by-term  
 Use this section to briefly summarize your project results. This could take the form of describing the progress your team made to answering a research question, developing a tool or tutorial, interesting things found in exploring a new dataset, lessons learned for applying a new method, personal accomplishments of each team member, or anything else the team wants to share.
 
 You could include figures or images here, links to notebooks or code elsewhere in the repository (such as in the [notebooks](notebooks/) folder), and information on how others can run your notebooks or code.
+
+## Open questions:
+
+What controls the differences in the seasonal variability of primarily terms of the vorticity budget across EBUS?
+
+At what scales does bottom pressure torque, nonlinear, and dissipation terms contribute most significantly to the vorticity balance?
