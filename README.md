@@ -24,13 +24,9 @@ This template provides the following suggested organizaiton structure for the pr
 * `model-card.md`
 <br> Description (following a metadata standard) of any machine learning models used in the project
 
-# Recommended content for your README.md file:
+# Spinners V2
 
-(you can remove the content here and above from your final project README.md file so that it begins with the Project or Team Name title below)
-
-# Project or Team Name
-
-## Project Title and Introduction
+## Introduction
 
 Provide a brief introduction describing the proposed work. Be sure to also decribe what skills team members will get to learn and practice as part of this project.
 
